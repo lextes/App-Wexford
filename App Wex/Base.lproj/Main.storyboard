@@ -158,12 +158,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="PUERTA"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoD-dH-lFt">
-                                <frame key="frameInset" minX="23.71%" width="131" height="64" maxY="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <state key="normal" image="flechaA"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNn-1W-oAa">
+                                <frame key="frameInset" minX="90" minY="840" width="203" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaBACK"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Dnf-xu-p4k"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Hor-Tg-hw5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -241,12 +241,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="PUERTA"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJM-hp-1Cc">
-                                <frame key="frameInset" minX="24.65%" width="131" height="64" maxY="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <state key="normal" image="flechaA"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVj-9g-yl0">
+                                <frame key="frameInset" minX="126" minY="850" width="203" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaBACK"/>
                                 <connections>
-                                    <segue destination="JT2-Fz-dF4" kind="show" id="2oM-WV-16L"/>
+                                    <segue destination="JT2-Fz-dF4" kind="show" id="og5-0r-uob"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -255,7 +255,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDR-9c-kkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1455" y="139"/>
+            <point key="canvasLocation" x="1454.6875" y="138.8671875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AgI-kE-iCF">
@@ -273,14 +273,6 @@
                                 <frame key="frameInset" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tn-q8-zBf">
-                                <frame key="frameInset" minX="8.32%" width="131" height="64" maxY="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <state key="normal" image="flechaA"/>
-                                <connections>
-                                    <segue destination="d4r-Zl-DDY" kind="show" id="9Yn-A5-xof"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApB-g9-CVl">
                                 <frame key="frameInset" minX="387" minY="687" width="300" height="245"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -289,13 +281,21 @@
                                     <segue destination="hAT-B4-7l4" kind="show" id="iw6-RJ-qZr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPC-Sd-G8T">
+                                <frame key="frameInset" minX="52" minY="899" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaBACK"/>
+                                <connections>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="eYE-d7-BWo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jub-yM-U9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2130" y="139"/>
+            <point key="canvasLocation" x="2129.6875" y="138.8671875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sBu-HG-Eml">
@@ -309,7 +309,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-fD-dRy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondoB" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-fD-dRy">
                                 <frame key="frameInset" minX="-3" maxY="2"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -353,17 +353,6 @@
                                 <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pestaña_cone" translatesAutoresizingMaskIntoConstraints="NO" id="EIK-UP-o19">
-                                <frame key="frameInset" minX="64" minY="19.81%" width="227" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" text="CONNECTING" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hSf-Kv-ekg">
-                                <frame key="frameInset" minX="100" minY="20.97%" width="151" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.92891128335896544" green="1" blue="0.94743339657932613" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back_from" translatesAutoresizingMaskIntoConstraints="NO" id="iel-yW-JP1">
                                 <frame key="frameInset" minX="536" minY="9.78%" width="93" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -395,34 +384,29 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8lx-QQ-tKB">
                                 <frame key="frameInset" minX="64" minY="26.02%" width="668" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.85501881540000002" green="0.61442351660000005" blue="0.21247620449999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.78228466166685784" green="0.85501881540000002" blue="0.51671301352411159" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES"/>
                                 </accessibility>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Look the illustrations and write the name of some important parts of each object. Look at the example:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JIw-WJ-WTB">
-                                <frame key="frameInset" minX="89" minY="28.27%" width="580" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pencil_help" translatesAutoresizingMaskIntoConstraints="NO" id="iWN-Sp-ZE9">
                                 <frame key="frameInset" minX="646" minY="252" width="89" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V12-Wm-iWV">
-                                <frame key="frameInset" minX="4.55%" width="131" height="63" maxY="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <state key="normal" image="flechaA"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHa-q1-o1i">
+                                <frame key="frameInset" minX="48" minY="901" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaBACK"/>
                                 <connections>
-                                    <segue destination="d4r-Zl-DDY" kind="show" id="u6Q-2x-JtN"/>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="eNb-vi-klT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRe-8r-Bnn">
-                                <frame key="frameInset" minX="91.05%" width="131" height="63" maxY="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <state key="normal" image="flechaD"/>
-                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Look the illustrations and write the name of some important parts of each object. Look at the example:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JIw-WJ-WTB">
+                                <frame key="frameInset" minX="100" minY="26.58%" width="580" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                     </view>
                 </viewController>
@@ -441,9 +425,9 @@
         <image name="exit" width="258" height="149"/>
         <image name="fifth" width="264" height="411"/>
         <image name="firsth" width="264" height="411"/>
-        <image name="flechaA" width="82" height="47"/>
-        <image name="flechaD" width="82" height="47"/>
+        <image name="flechaBACK" width="484" height="336"/>
         <image name="fondoAB" width="2100" height="2700"/>
+        <image name="fondoB" width="2100" height="2700"/>
         <image name="fondoBTest" width="300" height="386"/>
         <image name="fondoReady" width="500" height="643"/>
         <image name="fourth" width="264" height="411"/>
@@ -459,7 +443,6 @@
         <image name="mesa" width="795" height="529"/>
         <image name="pencil_help" width="56" height="61"/>
         <image name="pestaña2" width="197" height="85"/>
-        <image name="pestaña_cone" width="145" height="30"/>
         <image name="science" width="1439" height="253"/>
         <image name="second" width="264" height="411"/>
         <image name="sign" width="282" height="194"/>
@@ -470,7 +453,7 @@
         <image name="unit_num-1" width="1484" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2oM-WV-16L"/>
-        <segue reference="u6Q-2x-JtN"/>
+        <segue reference="og5-0r-uob"/>
+        <segue reference="eNb-vi-klT"/>
     </inferredMetricsTieBreakers>
 </document>
