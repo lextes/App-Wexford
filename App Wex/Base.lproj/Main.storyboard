@@ -309,116 +309,118 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondoB" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-fD-dRy">
-                                <frame key="frameInset" minX="-3" maxY="2"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo_test" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-fD-dRy">
+                                <frame key="frameInset" minX="-11" minY="-11" maxX="-7"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" text="SCIENCE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="baO-Dd-mcQ">
-                                <frame key="frameInset" minX="248" minY="10" width="152" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="30"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pestaña2" translatesAutoresizingMaskIntoConstraints="NO" id="4iV-Li-ZLU">
-                                <frame key="frameInset" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" text="Unit 1" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dU5-AA-1cs">
-                                <frame key="frameInset" minX="579" minY="13" width="114" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" text="Lesson 2" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R17-JA-aHB">
-                                <frame key="frameInset" minX="426" minY="13" width="145" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.24913081963991932" green="0.24670484429844333" blue="0.57670272435897441" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" text="LESSON 1 All about me" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="45H-xo-XXc">
-                                <frame key="frameInset" minX="100" minY="10.36%" width="290" height="49"/>
+                                <frame key="frameInset" minX="90" minY="9.54%" width="290" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.2491308196" green="0.2467048443" blue="0.57670272440000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" text="LESSON 2 Our body" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Scc-jI-yc6">
-                                <frame key="frameInset" minX="100" minY="15.39%" width="437" height="49"/>
+                                <frame key="frameInset" minX="90" minY="15.39%" width="437" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.2491308196" green="0.2467048443" blue="0.57670272440000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back_from" translatesAutoresizingMaskIntoConstraints="NO" id="iel-yW-JP1">
-                                <frame key="frameInset" minX="536" minY="9.78%" width="93" height="63"/>
+                                <frame key="frameInset" minX="514" minY="9.05%" width="93" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back_from" translatesAutoresizingMaskIntoConstraints="NO" id="F6d-Da-Q23">
-                                <frame key="frameInset" minX="536" minY="17.88%" width="93" height="62"/>
+                                <frame key="frameInset" minX="514" minY="15.59%" width="93" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="W LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzz-LI-HXc">
-                                <frame key="frameInset" minX="672" minY="10.60%" width="35" height="24"/>
+                                <frame key="frameInset" minX="622" minY="10.50%" width="35" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="exbook p. 1" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sKJ-Bw-k0t">
-                                <frame key="frameInset" minX="646" minY="12.29%" width="86" height="31"/>
+                                <frame key="frameInset" minX="665" minY="10.27%" width="86" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="W LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="u6D-cU-NXH">
-                                <frame key="frameInset" minX="672" minY="17.64%" width="35" height="26"/>
+                                <frame key="frameInset" minX="622" minY="16.13%" width="35" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="exbook p. 2" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kgq-J4-x5s">
-                                <frame key="frameInset" minX="646" minY="19.58%" width="86" height="33"/>
+                                <frame key="frameInset" minX="665" minY="16.25%" width="86" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8lx-QQ-tKB">
-                                <frame key="frameInset" minX="64" minY="26.02%" width="668" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.78228466166685784" green="0.85501881540000002" blue="0.51671301352411159" alpha="1" colorSpace="calibratedRGB"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES"/>
-                                </accessibility>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pencil_help" translatesAutoresizingMaskIntoConstraints="NO" id="iWN-Sp-ZE9">
-                                <frame key="frameInset" minX="646" minY="252" width="89" height="85"/>
+                                <frame key="frameInset" minX="646" minY="252" width="78" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHa-q1-o1i">
-                                <frame key="frameInset" minX="48" minY="901" width="164" height="105"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwR-AZ-Is8">
+                                <frame key="frameInset" minX="543" minY="919" width="164" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaBACK"/>
+                                <state key="normal" image="flechaFORW"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jox-d6-Q7R">
+                                <frame key="frameInset" minX="369" minY="537" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="noe-Uc-nyb">
+                                <frame key="frameInset" minX="556" minY="537" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9B3-uW-m49">
+                                <frame key="frameInset" minX="369" minY="672" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gYi-p2-36m">
+                                <frame key="frameInset" minX="556" minY="672" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CEn-TW-l1O">
+                                <frame key="frameInset" minX="369" minY="821" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jjc-nn-AMp">
+                                <frame key="frameInset" minX="556" minY="821" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWQ-0s-IaF">
+                                <frame key="frameInset" minX="90" minY="933" width="80" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PUERTA"/>
                                 <connections>
-                                    <segue destination="d4r-Zl-DDY" kind="show" id="eNb-vi-klT"/>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="TOV-Ck-w6L"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Look the illustrations and write the name of some important parts of each object. Look at the example:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JIw-WJ-WTB">
-                                <frame key="frameInset" minX="100" minY="26.58%" width="580" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNI-GN-ceK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2823" y="139"/>
+            <point key="canvasLocation" x="2822.65625" y="138.8671875"/>
         </scene>
     </scenes>
     <resources>
         <image name="PUERTA" width="416" height="508"/>
         <image name="W LOGO" width="442" height="374"/>
-        <image name="back_from" width="114" height="60"/>
+        <image name="back_from" width="238" height="137"/>
         <image name="botonGO" width="300" height="245"/>
         <image name="config" width="300" height="186"/>
         <image name="engrane" width="230" height="496"/>
@@ -426,10 +428,11 @@
         <image name="fifth" width="264" height="411"/>
         <image name="firsth" width="264" height="411"/>
         <image name="flechaBACK" width="484" height="336"/>
+        <image name="flechaFORW" width="484" height="336"/>
         <image name="fondoAB" width="2100" height="2700"/>
-        <image name="fondoB" width="2100" height="2700"/>
         <image name="fondoBTest" width="300" height="386"/>
         <image name="fondoReady" width="500" height="643"/>
+        <image name="fondo_test" width="1064" height="1363"/>
         <image name="fourth" width="264" height="411"/>
         <image name="geo" width="1439" height="253"/>
         <image name="help" width="216" height="157"/>
@@ -441,8 +444,7 @@
         <image name="lecc4" width="189" height="185"/>
         <image name="lecc5" width="189" height="185"/>
         <image name="mesa" width="795" height="529"/>
-        <image name="pencil_help" width="56" height="61"/>
-        <image name="pestaña2" width="197" height="85"/>
+        <image name="pencil_help" width="113" height="125"/>
         <image name="science" width="1439" height="253"/>
         <image name="second" width="264" height="411"/>
         <image name="sign" width="282" height="194"/>
@@ -453,7 +455,7 @@
         <image name="unit_num-1" width="1484" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="TOV-Ck-w6L"/>
         <segue reference="og5-0r-uob"/>
-        <segue reference="eNb-vi-klT"/>
     </inferredMetricsTieBreakers>
 </document>
