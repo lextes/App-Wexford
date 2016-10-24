@@ -309,13 +309,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo_test" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-fD-dRy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test1a" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-fD-dRy">
                                 <frame key="frameInset" minX="-11" minY="-11" maxX="-7"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" text="LESSON 1 All about me" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="45H-xo-XXc">
-                                <frame key="frameInset" minX="90" minY="9.54%" width="290" height="49"/>
+                                <frame key="frameInset" minX="90" minY="9.44%" width="290" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.2491308196" green="0.2467048443" blue="0.57670272440000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="25"/>
@@ -329,25 +329,25 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back_from" translatesAutoresizingMaskIntoConstraints="NO" id="iel-yW-JP1">
-                                <frame key="frameInset" minX="514" minY="9.05%" width="93" height="63"/>
+                                <frame key="frameInset" minX="514" minY="8.95%" width="93" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back_from" translatesAutoresizingMaskIntoConstraints="NO" id="F6d-Da-Q23">
-                                <frame key="frameInset" minX="514" minY="15.59%" width="93" height="62"/>
+                                <frame key="frameInset" minX="514" minY="15.39%" width="93" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="W LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzz-LI-HXc">
-                                <frame key="frameInset" minX="622" minY="10.50%" width="35" height="24"/>
+                                <frame key="frameInset" minX="622" minY="10.30%" width="35" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="exbook p. 1" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sKJ-Bw-k0t">
-                                <frame key="frameInset" minX="665" minY="10.27%" width="86" height="31"/>
+                                <frame key="frameInset" minX="665" minY="10.07%" width="86" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="W LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="u6D-cU-NXH">
-                                <frame key="frameInset" minX="622" minY="16.13%" width="35" height="26"/>
+                                <frame key="frameInset" minX="622" minY="15.93%" width="35" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="exbook p. 2" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kgq-J4-x5s">
@@ -432,7 +432,6 @@
         <image name="fondoAB" width="2100" height="2700"/>
         <image name="fondoBTest" width="300" height="386"/>
         <image name="fondoReady" width="500" height="643"/>
-        <image name="fondo_test" width="1064" height="1363"/>
         <image name="fourth" width="264" height="411"/>
         <image name="geo" width="1439" height="253"/>
         <image name="help" width="216" height="157"/>
@@ -445,6 +444,7 @@
         <image name="lecc5" width="189" height="185"/>
         <image name="mesa" width="795" height="529"/>
         <image name="pencil_help" width="113" height="125"/>
+        <image name="prueba_test1a" width="512" height="655"/>
         <image name="science" width="1439" height="253"/>
         <image name="second" width="264" height="411"/>
         <image name="sign" width="282" height="194"/>
