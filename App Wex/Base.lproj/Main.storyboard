@@ -360,14 +360,6 @@
                                 <frame key="frameInset" minX="646" minY="252" width="78" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwR-AZ-Is8">
-                                <frame key="frameInset" minX="543" minY="919" width="164" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="Uth-fG-EfK" kind="show" id="uVY-Bd-Kay"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jox-d6-Q7R">
                                 <frame key="frameInset" minX="369" minY="537" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -376,11 +368,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWQ-0s-IaF">
-                                <frame key="frameInset" minX="90" minY="933" width="80" height="98"/>
+                                <frame key="frameInset" minX="63" minY="936" width="80" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="PUERTA"/>
                                 <connections>
-                                    <segue destination="d4r-Zl-DDY" kind="show" id="TOV-Ck-w6L"/>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="yfh-Vp-DNW"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T3n-BQ-Q2D">
@@ -418,6 +410,14 @@
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwR-AZ-Is8">
+                                <frame key="frameInset" minX="547" minY="926" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="Uth-fG-EfK" kind="show" id="uVY-Bd-Kay"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
@@ -505,20 +505,12 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7k-BE-bpM">
-                                <frame key="frameInset" minX="524" minY="915" width="164" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="SkV-ot-Law" kind="show" id="ALC-8h-mYl"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEi-07-g6U">
-                                <frame key="frameInset" minX="71" minY="929" width="80" height="98"/>
+                                <frame key="frameInset" minX="63" minY="936" width="80" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="PUERTA"/>
                                 <connections>
-                                    <segue destination="d4r-Zl-DDY" kind="show" id="eXr-5I-F5G"/>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="pu0-xg-IKM"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cax-79-UXK">
@@ -570,6 +562,14 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7k-BE-bpM">
+                                <frame key="frameInset" minX="554" minY="919" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="0PK-pO-iSi" kind="show" id="gKX-uT-eim"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -591,24 +591,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test3" translatesAutoresizingMaskIntoConstraints="NO" id="cYA-pq-Yg3">
-                                <frame key="frameInset" minX="-9" minY="-11" maxX="-9"/>
+                                <frame key="frameInset" minX="-11" minY="-10" maxX="-7" maxY="-1"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqy-yN-S7p">
-                                <frame key="frameInset" minX="529" minY="918" width="164" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="0PK-pO-iSi" kind="show" id="vN9-hs-kOR"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMO-se-jtm">
-                                <frame key="frameInset" minX="62" minY="925" width="80" height="98"/>
+                                <frame key="frameInset" minX="62" minY="935" width="80" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="PUERTA"/>
                                 <connections>
-                                    <segue destination="d4r-Zl-DDY" kind="show" id="h9i-YZ-ADB"/>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="rfQ-lh-GOL"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="dVU-ut-849">
@@ -707,13 +699,21 @@
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqy-yN-S7p">
+                                <frame key="frameInset" minX="556" minY="919" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="U7I-o6-6eW" kind="show" id="FTE-bJ-UAM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wQr-I6-2Fp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4141" y="139"/>
+            <point key="canvasLocation" x="4854" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iKw-Dv-tAX">
@@ -728,34 +728,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test4" translatesAutoresizingMaskIntoConstraints="NO" id="Kha-r8-o2v">
-                                <frame key="frameInset" minX="-7" minY="-15" maxX="-11" maxY="4"/>
+                                <frame key="frameInset" minX="-12" minY="-8" maxX="-6" maxY="-3"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kZ-kC-NYj">
-                                <frame key="frameInset" minX="584" minY="915" width="164" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXh-Pj-w4G">
-                                <frame key="frameInset" minX="117" minY="922" width="80" height="98"/>
+                                <frame key="frameInset" minX="65" minY="938" width="80" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="PUERTA"/>
                                 <connections>
-                                    <segue destination="4FJ-2x-XXp" kind="show" id="u3n-1C-LjT"/>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="fBa-EB-MPT"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y1w-8W-1Wv">
                                 <frame key="frameInset" minX="85" minY="223" width="612" height="661"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kZ-kC-NYj">
+                                <frame key="frameInset" minX="555" minY="926" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="SkV-ot-Law" kind="show" id="Bzb-ie-Y7B"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIA-5p-aoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4811.71875" y="138.8671875"/>
+            <point key="canvasLocation" x="4171" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oJB-GS-JO1">
@@ -768,12 +771,275 @@
                     <view key="view" contentMode="scaleToFill" id="iga-1s-GXh">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test5" translatesAutoresizingMaskIntoConstraints="NO" id="VZD-4j-DMB">
+                                <frame key="frameInset" minX="-12" minY="-13" maxX="-4" maxY="1"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEQ-1b-2wq">
+                                <frame key="frameInset" minX="61" minY="936" width="80" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PUERTA"/>
+                                <connections>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="0xg-FP-af4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGG-Hj-YtZ">
+                                <frame key="frameInset" minX="547" minY="929" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="PvM-3F-6PM" kind="show" id="mxj-vx-GsS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pem-cp-TGt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5470" y="139"/>
+            <point key="canvasLocation" x="5544" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DfE-A3-YIO">
+            <objects>
+                <viewController id="PvM-3F-6PM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XND-UE-1x0"/>
+                        <viewControllerLayoutGuide type="bottom" id="ivm-06-IwY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jee-KX-cvz">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test6" translatesAutoresizingMaskIntoConstraints="NO" id="Qaq-6s-Heh">
+                                <frame key="frameInset" minX="-23" minY="-31" maxY="-1"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcp-ZT-nWT">
+                                <frame key="frameInset" minX="536" minY="930" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="Ohf-Oe-bJf" kind="show" id="OWJ-eO-4Xu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvt-PI-KXk">
+                                <frame key="frameInset" minX="50" minY="937" width="80" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PUERTA"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fi1-9J-u0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6210.15625" y="138.8671875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CfO-4b-BmG">
+            <objects>
+                <viewController id="Ohf-Oe-bJf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GSF-h9-v3e"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vlz-zQ-IKT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TFr-vL-ts4">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test7" translatesAutoresizingMaskIntoConstraints="NO" id="Ka0-te-037">
+                                <frame key="frameInset" minX="-24" minY="-28" maxY="-1"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7E-2D-fBU">
+                                <frame key="frameInset" minX="535" minY="930" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="Zk0-qy-tw8" kind="show" id="0Qj-Kx-dUH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g70-ee-xjz">
+                                <frame key="frameInset" minX="49" minY="937" width="80" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PUERTA"/>
+                                <connections>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="Agf-Sa-LLm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owT-z0-AzC">
+                                <frame key="frameInset" minX="88" minY="303" width="265" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="recuadro1_test7"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upV-3j-D8J">
+                                <frame key="frameInset" minX="437" minY="345" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBq-BO-T5M">
+                                <frame key="frameInset" minX="375" minY="303" width="265" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="recuadro2_test7"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbf-xL-bZq">
+                                <frame key="frameInset" minX="88" minY="606" width="265" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="reacuadro3_test7"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5Q-vt-BD7">
+                                <frame key="frameInset" minX="375" minY="606" width="265" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="recuadro4_test7"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8dB-Up-ALg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6853.90625" y="138.8671875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TC5-Yn-zf7">
+            <objects>
+                <viewController id="Zk0-qy-tw8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nfP-ZG-KeV"/>
+                        <viewControllerLayoutGuide type="bottom" id="o6T-oH-JRb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YoA-yr-804">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test8" translatesAutoresizingMaskIntoConstraints="NO" id="sEZ-SQ-dKW">
+                                <frame key="frameInset" minX="-23" minY="-28" maxX="-1" maxY="-1"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXg-Fo-2O4">
+                                <frame key="frameInset" minX="536" minY="930" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="fyl-nB-XdL" kind="show" id="eGx-e2-aTh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJ5-6H-2HL">
+                                <frame key="frameInset" minX="50" minY="937" width="80" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PUERTA"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="95G-qY-TGu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7522.65625" y="138.8671875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jxx-KC-1xI">
+            <objects>
+                <viewController id="fyl-nB-XdL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h9S-oz-WcS"/>
+                        <viewControllerLayoutGuide type="bottom" id="O4M-At-VQ1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M7I-a7-KnT">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test9" translatesAutoresizingMaskIntoConstraints="NO" id="Z5d-sX-j2o">
+                                <frame key="frameInset" minX="-24" minY="-27" maxX="-1"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c68-Do-eB7">
+                                <frame key="frameInset" minX="536" minY="929" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="Yvv-9g-GcO" kind="show" id="TLu-Xq-qS8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3C-Be-WOr">
+                                <frame key="frameInset" minX="74" minY="395" width="84" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="kid1_test9"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSU-b5-dcz">
+                                <frame key="frameInset" minX="384" minY="401" width="114" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="kid2_test9"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpF-Ua-Chn">
+                                <frame key="frameInset" minX="3" minY="522" width="244" height="244"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="kid3_test9"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KZ-5M-geP">
+                                <frame key="frameInset" minX="58" minY="936" width="80" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PUERTA"/>
+                                <connections>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="clO-SO-qMX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0s-ek-VCh">
+                                <frame key="frameInset" minX="74" minY="786" width="152" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="kid4_test9"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0iD-a5-YNU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8173.4375" y="138.8671875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YR0-TJ-5Uh">
+            <objects>
+                <viewController id="Yvv-9g-GcO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z66-YS-asv"/>
+                        <viewControllerLayoutGuide type="bottom" id="ueF-rU-hAZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Rg-F0-Cm2">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test10" translatesAutoresizingMaskIntoConstraints="NO" id="feo-V9-xwE">
+                                <frame key="frameInset" minX="-25" minY="-28" maxY="-3"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMd-YJ-3MC">
+                                <frame key="frameInset" minX="535" minY="932" width="164" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HD-Ke-5mB">
+                                <frame key="frameInset" minX="57" minY="939" width="80" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PUERTA"/>
+                                <connections>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="GFn-Or-UUx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ccY-Nu-tyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8829.6875" y="138.8671875"/>
         </scene>
     </scenes>
     <resources>
@@ -796,6 +1062,10 @@
         <image name="help" width="216" height="157"/>
         <image name="history" width="1439" height="253"/>
         <image name="kid" width="416" height="508"/>
+        <image name="kid1_test9" width="97" height="194"/>
+        <image name="kid2_test9" width="125" height="188"/>
+        <image name="kid3_test9" width="244" height="244"/>
+        <image name="kid4_test9" width="209" height="143"/>
         <image name="lecc1" width="189" height="185"/>
         <image name="lecc2" width="189" height="185"/>
         <image name="lecc3" width="189" height="185"/>
@@ -804,9 +1074,19 @@
         <image name="mesa" width="795" height="529"/>
         <image name="pencil_help" width="113" height="125"/>
         <image name="prueba_test1" width="1064" height="1363"/>
+        <image name="prueba_test10" width="1081" height="1387"/>
         <image name="prueba_test2" width="1064" height="1363"/>
         <image name="prueba_test3" width="1064" height="1363"/>
         <image name="prueba_test4" width="1064" height="1364"/>
+        <image name="prueba_test5" width="1064" height="1364"/>
+        <image name="prueba_test6" width="1081" height="1386"/>
+        <image name="prueba_test7" width="1081" height="1386"/>
+        <image name="prueba_test8" width="1081" height="1386"/>
+        <image name="prueba_test9" width="1080" height="1388"/>
+        <image name="reacuadro3_test7" width="399" height="345"/>
+        <image name="recuadro1_test7" width="411" height="350"/>
+        <image name="recuadro2_test7" width="267" height="231"/>
+        <image name="recuadro4_test7" width="384" height="324"/>
         <image name="science" width="1439" height="253"/>
         <image name="second" width="264" height="411"/>
         <image name="sign" width="282" height="194"/>
@@ -817,8 +1097,7 @@
         <image name="unit_num-1" width="1484" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="u3n-1C-LjT"/>
-        <segue reference="h9i-YZ-ADB"/>
         <segue reference="og5-0r-uob"/>
+        <segue reference="GFn-Or-UUx"/>
     </inferredMetricsTieBreakers>
 </document>
