@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84C3E4B61DADDE7100BA921A"
-               BuildableName = "App Wex.app"
-               BlueprintName = "App Wex"
-               ReferencedContainer = "container:App Wex.xcodeproj">
+               BuildableName = "Wexbox.app"
+               BlueprintName = "Wexbox"
+               ReferencedContainer = "container:Wexbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84C3E4CA1DADDE7100BA921A"
-               BuildableName = "App WexTests.xctest"
-               BlueprintName = "App WexTests"
-               ReferencedContainer = "container:App Wex.xcodeproj">
+               BuildableName = "WexboxTests.xctest"
+               BlueprintName = "WexboxTests"
+               ReferencedContainer = "container:Wexbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84C3E4D51DADDE7200BA921A"
-               BuildableName = "App WexUITests.xctest"
-               BlueprintName = "App WexUITests"
-               ReferencedContainer = "container:App Wex.xcodeproj">
+               BuildableName = "WexboxUITests.xctest"
+               BlueprintName = "WexboxUITests"
+               ReferencedContainer = "container:Wexbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84C3E4B61DADDE7100BA921A"
-            BuildableName = "App Wex.app"
-            BlueprintName = "App Wex"
-            ReferencedContainer = "container:App Wex.xcodeproj">
+            BuildableName = "Wexbox.app"
+            BlueprintName = "Wexbox"
+            ReferencedContainer = "container:Wexbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84C3E4B61DADDE7100BA921A"
-            BuildableName = "App Wex.app"
-            BlueprintName = "App Wex"
-            ReferencedContainer = "container:App Wex.xcodeproj">
+            BuildableName = "Wexbox.app"
+            BlueprintName = "Wexbox"
+            ReferencedContainer = "container:Wexbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84C3E4B61DADDE7100BA921A"
-            BuildableName = "App Wex.app"
-            BlueprintName = "App Wex"
-            ReferencedContainer = "container:App Wex.xcodeproj">
+            BuildableName = "Wexbox.app"
+            BlueprintName = "Wexbox"
+            ReferencedContainer = "container:Wexbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

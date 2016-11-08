@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,16 +35,16 @@
 
 /* Begin PBXFileReference section */
 		843E49C81DB7F4EA00950E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84C3E4B71DADDE7100BA921A /* App Wex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Wex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C3E4B71DADDE7100BA921A /* Wexbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wexbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C3E4BA1DADDE7100BA921A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C3E4BC1DADDE7100BA921A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84C3E4BF1DADDE7100BA921A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C3E4C41DADDE7100BA921A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C3E4C61DADDE7100BA921A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84C3E4CB1DADDE7100BA921A /* App WexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App WexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C3E4CB1DADDE7100BA921A /* WexboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WexboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C3E4CF1DADDE7100BA921A /* App_WexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_WexTests.swift; sourceTree = "<group>"; };
 		84C3E4D11DADDE7100BA921A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84C3E4D61DADDE7200BA921A /* App WexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App WexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C3E4D61DADDE7200BA921A /* WexboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WexboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C3E4DA1DADDE7200BA921A /* App_WexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_WexUITests.swift; sourceTree = "<group>"; };
 		84C3E4DC1DADDE7200BA921A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		84C3E4B81DADDE7100BA921A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84C3E4B71DADDE7100BA921A /* App Wex.app */,
-				84C3E4CB1DADDE7100BA921A /* App WexTests.xctest */,
-				84C3E4D61DADDE7200BA921A /* App WexUITests.xctest */,
+				84C3E4B71DADDE7100BA921A /* Wexbox.app */,
+				84C3E4CB1DADDE7100BA921A /* WexboxTests.xctest */,
+				84C3E4D61DADDE7200BA921A /* WexboxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84C3E4B61DADDE7100BA921A /* App Wex */ = {
+		84C3E4B61DADDE7100BA921A /* Wexbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84C3E4DF1DADDE7200BA921A /* Build configuration list for PBXNativeTarget "App Wex" */;
+			buildConfigurationList = 84C3E4DF1DADDE7200BA921A /* Build configuration list for PBXNativeTarget "Wexbox" */;
 			buildPhases = (
 				84C3E4B31DADDE7100BA921A /* Sources */,
 				84C3E4B41DADDE7100BA921A /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "App Wex";
+			name = Wexbox;
 			productName = "App Wex";
-			productReference = 84C3E4B71DADDE7100BA921A /* App Wex.app */;
+			productReference = 84C3E4B71DADDE7100BA921A /* Wexbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84C3E4CA1DADDE7100BA921A /* App WexTests */ = {
+		84C3E4CA1DADDE7100BA921A /* WexboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84C3E4E21DADDE7200BA921A /* Build configuration list for PBXNativeTarget "App WexTests" */;
+			buildConfigurationList = 84C3E4E21DADDE7200BA921A /* Build configuration list for PBXNativeTarget "WexboxTests" */;
 			buildPhases = (
 				84C3E4C71DADDE7100BA921A /* Sources */,
 				84C3E4C81DADDE7100BA921A /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				84C3E4CD1DADDE7100BA921A /* PBXTargetDependency */,
 			);
-			name = "App WexTests";
+			name = WexboxTests;
 			productName = "App WexTests";
-			productReference = 84C3E4CB1DADDE7100BA921A /* App WexTests.xctest */;
+			productReference = 84C3E4CB1DADDE7100BA921A /* WexboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84C3E4D51DADDE7200BA921A /* App WexUITests */ = {
+		84C3E4D51DADDE7200BA921A /* WexboxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84C3E4E51DADDE7200BA921A /* Build configuration list for PBXNativeTarget "App WexUITests" */;
+			buildConfigurationList = 84C3E4E51DADDE7200BA921A /* Build configuration list for PBXNativeTarget "WexboxUITests" */;
 			buildPhases = (
 				84C3E4D21DADDE7200BA921A /* Sources */,
 				84C3E4D31DADDE7200BA921A /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				84C3E4D81DADDE7200BA921A /* PBXTargetDependency */,
 			);
-			name = "App WexUITests";
+			name = WexboxUITests;
 			productName = "App WexUITests";
-			productReference = 84C3E4D61DADDE7200BA921A /* App WexUITests.xctest */;
+			productReference = 84C3E4D61DADDE7200BA921A /* WexboxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,8 +207,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 84C3E4B21DADDE7100BA921A /* Build configuration list for PBXProject "App Wex" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 84C3E4B21DADDE7100BA921A /* Build configuration list for PBXProject "Wexbox" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84C3E4B61DADDE7100BA921A /* App Wex */,
-				84C3E4CA1DADDE7100BA921A /* App WexTests */,
-				84C3E4D51DADDE7200BA921A /* App WexUITests */,
+				84C3E4B61DADDE7100BA921A /* Wexbox */,
+				84C3E4CA1DADDE7100BA921A /* WexboxTests */,
+				84C3E4D51DADDE7200BA921A /* WexboxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		84C3E4CD1DADDE7100BA921A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84C3E4B61DADDE7100BA921A /* App Wex */;
+			target = 84C3E4B61DADDE7100BA921A /* Wexbox */;
 			targetProxy = 84C3E4CC1DADDE7100BA921A /* PBXContainerItemProxy */;
 		};
 		84C3E4D81DADDE7200BA921A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84C3E4B61DADDE7100BA921A /* App Wex */;
+			target = 84C3E4B61DADDE7100BA921A /* Wexbox */;
 			targetProxy = 84C3E4D71DADDE7200BA921A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -337,7 +337,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: lextes@hotmail.com (9H82D3MEH6)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -358,6 +359,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -388,7 +390,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: lextes@hotmail.com (9H82D3MEH6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -403,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -414,6 +418,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8XA58BLP47;
 				INFOPLIST_FILE = "App Wex/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Wexford.App-Wex";
@@ -427,6 +433,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8XA58BLP47;
 				INFOPLIST_FILE = "App Wex/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Wexford.App-Wex";
@@ -446,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Wexford.App-WexTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Wex.app/App Wex";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wexbox.app/Wexbox";
 			};
 			name = Debug;
 		};
@@ -460,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Wexford.App-WexTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Wex.app/App Wex";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wexbox.app/Wexbox";
 			};
 			name = Release;
 		};
@@ -493,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84C3E4B21DADDE7100BA921A /* Build configuration list for PBXProject "App Wex" */ = {
+		84C3E4B21DADDE7100BA921A /* Build configuration list for PBXProject "Wexbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84C3E4DD1DADDE7200BA921A /* Debug */,
@@ -502,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84C3E4DF1DADDE7200BA921A /* Build configuration list for PBXNativeTarget "App Wex" */ = {
+		84C3E4DF1DADDE7200BA921A /* Build configuration list for PBXNativeTarget "Wexbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84C3E4E01DADDE7200BA921A /* Debug */,
@@ -511,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84C3E4E21DADDE7200BA921A /* Build configuration list for PBXNativeTarget "App WexTests" */ = {
+		84C3E4E21DADDE7200BA921A /* Build configuration list for PBXNativeTarget "WexboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84C3E4E31DADDE7200BA921A /* Debug */,
@@ -520,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84C3E4E51DADDE7200BA921A /* Build configuration list for PBXNativeTarget "App WexUITests" */ = {
+		84C3E4E51DADDE7200BA921A /* Build configuration list for PBXNativeTarget "WexboxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84C3E4E61DADDE7200BA921A /* Debug */,
