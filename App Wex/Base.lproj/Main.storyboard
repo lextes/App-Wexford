@@ -1100,7 +1100,7 @@
         <image name="unit_num-1" width="1484" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="fBa-EB-MPT"/>
         <segue reference="og5-0r-uob"/>
-        <segue reference="wpl-1p-2JH"/>
     </inferredMetricsTieBreakers>
 </document>
