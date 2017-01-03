@@ -739,7 +739,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="PUERTA"/>
                                 <connections>
-                                    <segue destination="4FJ-2x-XXp" kind="show" id="sLj-Ix-3NI"/>
+                                    <segue destination="d4r-Zl-DDY" kind="show" id="U8A-c9-Sbi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1133,8 +1133,7 @@
         <image name="unit_num-1" width="1484" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sLj-Ix-3NI"/>
-        <segue reference="0xg-FP-af4"/>
+        <segue reference="U8A-c9-Sbi"/>
         <segue reference="og5-0r-uob"/>
     </inferredMetricsTieBreakers>
 </document>
