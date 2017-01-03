@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -719,6 +719,38 @@
             <point key="canvasLocation" x="4853.90625" y="138.8671875"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="cq0-lI-VNr">
+            <objects>
+                <viewController id="SFz-pn-c1y" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3uh-o4-tEe"/>
+                        <viewControllerLayoutGuide type="bottom" id="ahT-ET-mIC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dJI-Ij-vvS">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondoFinleccion" translatesAutoresizingMaskIntoConstraints="NO" id="ypi-zM-bKq">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQX-P5-riO">
+                                <rect key="frame" x="82" y="906" width="80" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PUERTA"/>
+                                <connections>
+                                    <segue destination="4FJ-2x-XXp" kind="show" id="sLj-Ix-3NI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ZK-fl-nlA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6243.75" y="138.8671875"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="iKw-Dv-tAX">
             <objects>
                 <viewController id="0PK-pO-iSi" sceneMemberID="viewController">
@@ -793,7 +825,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="PvM-3F-6PM" kind="show" id="mxj-vx-GsS"/>
+                                    <segue destination="SFz-pn-c1y" kind="show" id="zig-7v-8By"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -840,7 +872,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fi1-9J-u0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6210.15625" y="138.8671875"/>
+            <point key="canvasLocation" x="6891" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CfO-4b-BmG">
@@ -905,7 +937,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dB-Up-ALg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6853.90625" y="138.8671875"/>
+            <point key="canvasLocation" x="7549" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TC5-Yn-zf7">
@@ -943,7 +975,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95G-qY-TGu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7522.65625" y="138.8671875"/>
+            <point key="canvasLocation" x="8193" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jxx-KC-1xI">
@@ -1004,7 +1036,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0iD-a5-YNU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8173.4375" y="138.8671875"/>
+            <point key="canvasLocation" x="8847" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YR0-TJ-5Uh">
@@ -1042,7 +1074,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccY-Nu-tyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8829.6875" y="138.8671875"/>
+            <point key="canvasLocation" x="9526" y="139"/>
         </scene>
     </scenes>
     <resources>
@@ -1059,6 +1091,7 @@
         <image name="flechaFORW" width="484" height="336"/>
         <image name="fondoAB" width="2100" height="2700"/>
         <image name="fondoBTest" width="300" height="386"/>
+        <image name="fondoFinleccion" width="500" height="643"/>
         <image name="fondoReady" width="500" height="643"/>
         <image name="fourth" width="264" height="411"/>
         <image name="geo" width="1439" height="253"/>
@@ -1100,7 +1133,8 @@
         <image name="unit_num-1" width="1484" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fBa-EB-MPT"/>
+        <segue reference="sLj-Ix-3NI"/>
+        <segue reference="0xg-FP-af4"/>
         <segue reference="og5-0r-uob"/>
     </inferredMetricsTieBreakers>
 </document>
