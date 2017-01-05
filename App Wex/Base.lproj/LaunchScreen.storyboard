@@ -21,12 +21,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="Qar-3a-atQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="Qar-3a-atQ">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qar-3a-atQ" secondAttribute="trailing" id="16y-dI-gg3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Qar-3a-atQ" secondAttribute="bottom" id="Jts-jB-nKk"/>
+                            <constraint firstItem="Qar-3a-atQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="OTj-D0-TCG"/>
+                            <constraint firstItem="Qar-3a-atQ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ngL-Tn-KPH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
