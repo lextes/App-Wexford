@@ -330,7 +330,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test1" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-fD-dRy">
-                                <rect key="frame" x="-11" y="-11" width="786" height="1035"/>
+                                <rect key="frame" x="-16" y="-9" width="786" height="1035"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
@@ -387,14 +387,6 @@
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWQ-0s-IaF">
-                                <rect key="frame" x="63" y="936" width="80" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="PUERTA"/>
-                                <connections>
-                                    <segue destination="d4r-Zl-DDY" kind="show" id="yfh-Vp-DNW"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T3n-BQ-Q2D">
                                 <rect key="frame" x="558" y="537" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -430,12 +422,12 @@
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwR-AZ-Is8">
-                                <rect key="frame" x="547" y="926" width="164" height="105"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-Aj-rZ2">
+                                <rect key="frame" x="90" y="931" width="164" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="Uth-fG-EfK" kind="show" id="uVY-Bd-Kay"/>
+                                    <segue destination="Uth-fG-EfK" kind="show" id="Gft-bF-T2P"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -526,7 +518,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEi-07-g6U">
-                                <rect key="frame" x="63" y="936" width="80" height="98"/>
+                                <rect key="frame" x="63" y="931" width="80" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="PUERTA"/>
                                 <connections>
@@ -1265,7 +1257,7 @@
         <image name="lecc4" width="189" height="185"/>
         <image name="mesa" width="795" height="529"/>
         <image name="pencil_help" width="113" height="125"/>
-        <image name="prueba_test1" width="1064" height="1363"/>
+        <image name="prueba_test1" width="710" height="910"/>
         <image name="prueba_test10" width="1081" height="1387"/>
         <image name="prueba_test2" width="1064" height="1363"/>
         <image name="prueba_test3" width="1064" height="1363"/>
@@ -1293,7 +1285,7 @@
         <image name="unit_num" width="1290" height="1055"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eYE-d7-BWo"/>
+        <segue reference="pu0-xg-IKM"/>
         <segue reference="og5-0r-uob"/>
     </inferredMetricsTieBreakers>
 </document>
